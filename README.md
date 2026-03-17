@@ -58,6 +58,10 @@ ets-project/
 |-- ETS IEX Data.py
 |-- README.md
 |-- .gitignore
+|-- assets/
+|   |-- plots/
+|   |   |-- ets/
+|   |   |-- iex/
 ```
 
 ## Requirements
@@ -70,7 +74,7 @@ pip install pandas numpy matplotlib statsmodels openpyxl arch
 
 ## Input Files
 
-The scripts currently expect local files at these hardcoded paths:
+The scripts currently expect local files at these hardcoded paths.
 
 ### For `ETS Data Final.py`
 
@@ -128,6 +132,48 @@ The script writes files into `ets_output_iex_models`, including:
 - `plot4_rolling_kurtosis.png`
 - `plot5_regime_probabilities.png` if regime estimation succeeds
 
+## Visual Results
+
+### ETS Electricity Generation Analysis
+
+#### Structural Transition
+
+![Structural Transition](assets/plots/ets/plot1_structural_transition.png)
+
+#### HHI Over Time
+
+![HHI Over Time](assets/plots/ets/plot2_hhi_over_time.png)
+
+#### Rolling Demand Volatility
+
+![Rolling Demand Volatility](assets/plots/ets/plot3_rolling_demand_volatility.png)
+
+#### Crisis Markers Overlay
+
+![Crisis Markers Overlay](assets/plots/ets/plot4_crisis_markers_overlay.png)
+
+### IEX Market Modelling Results
+
+#### Daily Average MCP
+
+![Daily Average MCP](assets/plots/iex/plot1_daily_price.png)
+
+#### Returns and Jump Detection
+
+![Returns and Jump Detection](assets/plots/iex/plot2_returns_jumps.png)
+
+#### GARCH Conditional Volatility
+
+![GARCH Conditional Volatility](assets/plots/iex/plot3_garch_conditional_vol.png)
+
+#### Rolling Kurtosis
+
+![Rolling Kurtosis](assets/plots/iex/plot4_rolling_kurtosis.png)
+
+#### Regime Probabilities
+
+![Regime Probabilities](assets/plots/iex/plot5_regime_probabilities.png)
+
 ## Notes
 
 - The project is currently script-based and not yet refactored into reusable modules.
@@ -147,5 +193,4 @@ The script writes files into `ets_output_iex_models`, including:
 ## Author
 
 Rohen
-
 
