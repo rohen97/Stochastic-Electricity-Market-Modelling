@@ -1,4 +1,4 @@
-# ETS IEX Analysis
+# Energy Trasnition for Sustainability IEX & EMBER Data Analysis
 
 Python project for processing ETS-related power market datasets and analyzing Indian Energy Exchange market data with time-series and volatility models.
 
