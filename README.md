@@ -1,6 +1,6 @@
-# Energy Trasnition for Sustainability IEX & EMBER Data Analysis
+# Stochastic Modelling of Electricity Prices with Jump Diffusion (India – IEX)
 
-Python project for processing ETS-related power market datasets and analyzing Indian Energy Exchange market data with time-series and volatility models.
+Python project for processing Energy Transition for Sustainability-related power market datasets and analyzing Indian Energy Exchange market data with time-series and volatility models.
 
 ## Overview
 
