@@ -1,4 +1,4 @@
-# Stochastic Modelling of Electricity Prices with Jump Diffusion (India – IEX)
+# Stochastic Modelling of Electricity Prices with Jump Diffusion (India - IEX)
 
 Python project for processing Energy Transition for Sustainability-related power market datasets and analyzing Indian Energy Exchange market data with time-series and volatility models.
 
@@ -147,3 +147,5 @@ The script writes files into `ets_output_iex_models`, including:
 ## Author
 
 Rohen
+
+
